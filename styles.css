@@ -11,9 +11,6 @@ body {
   font-family: 'Arial', sans-serif;
 
 }
-nav{
-  padding-right:0px;
-}
 .App {
   display: flex;
   flex-direction: column;
@@ -29,7 +26,7 @@ nav {
   position:absolute;
   top:2.6%;
   color: white;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
 }
 
 .left h1 {
