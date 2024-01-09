@@ -1,0 +1,63 @@
+import React from 'react';
+import Project from './Project';
+const project=[
+  {
+name:"KEEPER APP",
+imgurl:"Keeper.png",
+Description:"Developed frontend for a note-keeping web application using React.js.It enables users to seamlessly create, edit, and delete notes through an intuitive user interface. Leveraging React's useState for state management, the project ensures dynamic and responsive note handling.",
+TechStack: "React.js",
+Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
+
+},
+{
+  name:"DICTIONARY",
+  imgurl:"Dictionary.png",
+  
+  Description: "Developed an online Dictionary using the Free Dictionary API. This platform allows users to search for word definitions, learn pronunciation, and discover synonyms for the words they are interested in.",
+  TechStack: "HTML, CSS, JavaScript ,EJS, Node.js, Express.js, REST API(Free Dictionary API)",
+  Githublink:"https://github.com/GiridharanSanthoshkumar/Dictionary",
+  deployedlink:"https://thankful-newt-sweatshirt.cyclic.app/"
+ },
+{
+name:"SIMON GAME",
+imgurl:"simon.png",
+Description: "Created a classic Simon game using HTML, CSS, and JavaScript with jQuery for interactivity. Players must follow a sequence of colors and sounds, progressively increasing in complexity.",
+TechStack: "HTML, CSS, JavaScript (jQuery)",
+Githublink: "https://github.com/GiridharanSanthoshkumar/s-mon-Game",
+deployedlink:"https://giridharansanthoshkumar.github.io/s-mon-Game/"
+},
+{
+name:"DRUM STICK PLAYER",
+imgurl:"Drumkit.png",
+Description: "Built a virtual drumstick player using HTML, CSS, and JavaScript with jQuery. Users can simulate playing the drums by clicking on the virtual drumsticks and producing corresponding sounds.",
+TechStack:" HTML, CSS, JavaScript (jQuery)",
+Githublink: "https://github.com/GiridharanSanthoshkumar/drumstick",
+deployedlink:"https://giridharansanthoshkumar.github.io/drumstick/"
+}
+
+
+];
+
+
+
+const Projects = () => {
+  return (
+    <div  id="projects">
+      <h2>My <strong>Projects</strong></h2>
+      
+      <div className="projects-content">
+      
+     { project.map((pro)=>{
+        return <Project name={pro.name} imgurl={pro.imgurl} desc={pro.Description} srclink={pro.Githublink} deploy={(pro.deployedlink)?pro.deployedlink:null}></Project>
+      })
+      }
+      </div>
+      
+      
+     
+      {/* Add more project details as needed */}
+    </div>
+  );
+};
+
+export default Projects;
