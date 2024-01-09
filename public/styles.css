@@ -11,7 +11,9 @@ body {
   font-family: 'Arial', sans-serif;
 
 }
-
+nav{
+  padding-right:0px;
+}
 .App {
   display: flex;
   flex-direction: column;
