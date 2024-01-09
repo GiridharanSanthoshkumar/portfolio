@@ -7,10 +7,7 @@ const Profile = () => {
       <NavBar  />
      <div className="intro">
 
-   <h1 style={{ fontWeight:"200",
-    color:"#fff",
-    fontSize: "70px",
-    marginBottom:"20px"
+   <h1 style={{ 
       }}>Hello,I'm
       <strong>Giridharan Santhoshkumar</strong>
       </h1>

@@ -6,15 +6,9 @@ function Contact()
     const yr=date.getFullYear();
     return (<div id="contact">
    
-      <div className="conta"
-      style={{display:"flex",
-      flexDirection:"row",
-      height:"70%",
-      paddingTop:"4%",
-      paddingBottom:"20%",
-      }}>
+      <div className="conta">
 
-       <div className="contactdet" style={{width:"40%",marginLeft:"10%",color:"white"}}>
+       <div className="contactdet" >
         <h2 style={{fontFamily:"'Roboto', sans-serif"}}>My Contact Details</h2>
         <div>
         <p class="label">EMAIL</p>
@@ -32,7 +26,7 @@ function Contact()
         </div>
 
        </div>
-       <div className="skills"  style={{width:"60%",color:"whitesmoke"}}>
+       <div className="skills"  >
 
         <h2 style={{fontFamily:"'Roboto', sans-serif"}}>Skills</h2>
         <div style={{display:"flex",flexWrap: "wrap",}}>
