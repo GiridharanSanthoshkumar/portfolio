@@ -26,5 +26,4 @@ Githublink:"https://github.com/GiridharanSanthoshkumar/Dictionary",
 },
 
 ]
-//"homepage": "https://GiridharanSanthoshkumar.github.io/portfolio",
 
