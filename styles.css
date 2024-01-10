@@ -84,7 +84,7 @@ nav a {
     display: none;
     
   }
-  a{
+  nav > a{
     margin: 0px;
     padding-right: 0px;
   }
@@ -98,14 +98,17 @@ nav a {
     
     text-align: center;
     position: relative;
-    background-color: #333;
+  
+  }
+  .right a{
+    padding-top: 2%;
   }
   .show {
     display: flex;
     flex-direction: column;
     padding-left: 0%;
      width: 100%;
-    background-color: #333;
+    background-color: #33333359;
     text-align: center;
   }
   li{
@@ -124,6 +127,8 @@ nav a {
   background-image:url("prof.png");
   background-attachment: fixed;
   background-size: cover;
+
+  background-position:center center;
   color: white;
   position:relative;
   
