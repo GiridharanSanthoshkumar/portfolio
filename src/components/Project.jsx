@@ -10,7 +10,7 @@ function Project(props)
        <h2 >{props.name}</h2>
 <p >{props.desc}</p>
     <div className="links">
-<a href={props.srclink} target="blank"><button class="button-34" >source code</button></a>
+<a href={props.srclink} target="blank"><button className="button-34" >source code</button></a>
  
       {(props.deploy)?<a href={props.deploy} target="blank"><button class="button-34" >Try it</button></a>:null}
       </div>
