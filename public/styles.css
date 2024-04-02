@@ -157,6 +157,9 @@ nav a {
   background-position:center;
   color: white;
   position:relative;
+  @media (max-width:767px){
+    background-attachment: scroll;
+  }
   
 }
 .intro{
