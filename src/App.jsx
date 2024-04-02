@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './components/home/NavBar';
 import Profile from './components/home/Profile';
 import Projects from './components/Projects/Projects';
 import About from "./components/about/About";
@@ -9,7 +10,7 @@ function App() {
   
       <div className="App">
         <main>
-          
+        <NavBar  />
         <Profile />
             
            

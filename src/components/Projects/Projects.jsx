@@ -2,6 +2,14 @@ import React from 'react';
 import Project from './Project';
 const project=[
   {
+    name:"HOSPITAL SUGGESTION SYSTEM",
+    imgurl:"Images/Hospitalsuggestion.png",
+    Description:"Developed a Hospital Suggestion System for efficient local healthcare access. Using geolocation ,places API and machine learning, it offers personalized hospital recommendations based on user location and reported medical issues, addressing current limitations in existing options.",
+    TechStack: "React.js,Node.js,Express.js,API,LLM integration",
+    Githublink: "https://github.com/GiridharanSanthoshkumar/Hospital_Suggestion_System/",
+    
+    },
+  {
 name:"KEEPER APP",
 imgurl:"Images/Keeper.png",
 Description:"Developed frontend for a note-keeping web application using React.js.It enables users to seamlessly create, edit, and delete notes through an intuitive user interface. Leveraging React's useState for state management, the project ensures dynamic and responsive note handling.",

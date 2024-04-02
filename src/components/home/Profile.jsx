@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 const Profile = () => {
   return (
     <div className="fullscreen prof" id="home">
-      <NavBar  />
+     
      <div className="intro">
 
    <h1 style={{ 

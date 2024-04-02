@@ -18,16 +18,24 @@ body {
   justify-content: center;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  position:absolute;
-  top:2.6%;
+  z-index: 1000;
   color: white;
   padding: 10px 0px 10px 0px;
+  transition: background-color 0.3s ease;
 }
+nav.scrolled {
+  background-color: #333; /* Change the background color when scrolled */
+}
+
 
 .left h1 {
   margin: 0;
@@ -48,6 +56,7 @@ font-family: 'Young Serif', serif;
 }
 .right{
   margin:auto;
+ 
 
 }
 .right a {
@@ -91,6 +100,7 @@ nav a {
   nav{
     top:0%;
     padding-top: 0%;
+    padding-bottom: 0px;
   }
   .right{
     margin:0px;
@@ -98,6 +108,7 @@ nav a {
     
     text-align: center;
     position: relative;
+    background-color: #665f5f6b;
   
   }
   .right a{
