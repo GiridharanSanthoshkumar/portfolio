@@ -25,7 +25,7 @@ const NavBar = () => {
       <div className="right">
       <button class="menu-icon toggle-button" style={{margin:"0px",padding:"0px"}}onClick={toggleDropdown}>
       {isOpen ? (
-            <span> &times; </span> // Close icon (cross mark)
+            <span style={{fontSize:"2rem"}}> X </span> // Close icon (cross mark)
           ) : (
             <>
               <span className="bar"></span>
