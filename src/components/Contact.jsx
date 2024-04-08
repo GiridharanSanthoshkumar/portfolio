@@ -55,8 +55,7 @@ function Contact()
       <div><a href="https://www.instagram.com/giridharan0503/"><i class="fa-brands fa-instagram fa-2xl" style={{color: "#8a8a8f"}}></i></a></div>
       
       </div>
-      <p style={{textAlign:"center",marginBottom:"0px", color:"#bfbfd6" ,fontWeight:"500"}}>© Copyright {yr}. Made by Giridharan S</p>
-
+      
     </div>)
 }
 export default Contact;
