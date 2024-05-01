@@ -48,7 +48,7 @@ function Contact()
 
       </div>
 
-      <div class="foot"style={{display:"flex",flexDirection:"row", width:"100%",justifyContent: "center"}}>
+      <div class="foot" style={{display:"flex",flexDirection:"row", width:"100%",justifyContent: "center",paddingBottom:"20px"}}>
       <div><a href="https://github.com/GiridharanSanthoshkumar/"><i class="fa-brands fa-github fa-2xl" style={{color: "#8a8a8f"}}></i></a></div>
       
       <div><a href="https://www.linkedin.com/in/giridharan-s-542a9822b/"><i class="fa-brands fa-linkedin fa-2xl" style={{color: "#8a8a8f"}}></i></a></div>
