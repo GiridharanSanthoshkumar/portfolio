@@ -24,7 +24,7 @@ Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
   Description: "Developed an online Dictionary using the Free Dictionary API. This platform allows users to search for word definitions, learn pronunciation, and discover synonyms for the words they are interested in.",
   TechStack: "HTML, CSS, JavaScript ,EJS, Node.js, Express.js, REST API(Free Dictionary API)",
   Githublink:"https://github.com/GiridharanSanthoshkumar/Dictionary",
-  deployedlink:"https://thankful-newt-sweatshirt.cyclic.app/"
+  
  },
 {
 name:"SIMON GAME",
