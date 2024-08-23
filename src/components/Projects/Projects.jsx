@@ -18,6 +18,15 @@ Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
 
 },
 {
+  name:"REGISTRATION WEBSITE",
+  imgurl:"Images/Brainstrain.png",
+  Description:"Collaborated with a team to develop a event registration website for a college club. As one of the primary web developers, I worked closely with designers to bring the visual and functional aspects of the site to life. The website features a visually appealing home page, an events page that lists all upcoming events, and a seamless registration page for participants.",
+  TechStack: "React.js",
+  Githublink: "https://github.com/GiridharanSanthoshkumar/Brainstrain",
+  deployedlink:"https://www.ldsgct.in/"
+  
+  },
+{
   name:"DICTIONARY",
   imgurl:"Images/Dictionary.png",
   
