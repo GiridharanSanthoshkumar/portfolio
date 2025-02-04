@@ -124,6 +124,22 @@ nav a {
     right: 10px;
     top: 10px;
   }
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.navicons{
+    width: 100%;
+    padding-right: 0px;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.navicon-li{
+    margin:2%;
+}
 
   .toggle-button > .bar {
     background-color: #fff;
