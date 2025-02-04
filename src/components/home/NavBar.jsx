@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import "./navbar.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,11 +36,11 @@ const NavBar = () => {
           )}
       </button>
         <ul className={isOpen ? "show" : "list"}>
-          <a href="#home"> <li>HOME</li></a>
-          <a href="#about"> <li>ABOUT</li></a>
-          <a href="#contact">  <li>CONTACT</li></a>
-          <a href="#projects"><li>PROJECTS</li></a>
-          <a href="#certificate-section"><li>CERTIFICATIONS</li></a>
+           <li className='navicon-li'> <a href="#home" className='navicons'>HOME</a></li>
+          <li className='navicon-li'><a href="#about" className='navicons'>ABOUT</a></li>
+          <li className='navicon-li'><a href="#contact" className='navicons'>  CONTACT</a> </li>
+          <li className='navicon-li'><a href="#projects" className='navicons'>PROJECTS </a></li>
+         <li className='navicon-li'> <a href="#certificate-section" className='navicons'>CERTIFICATIONS</a></li>
           {/* Add more links as needed */}
         </ul>
       </div>
