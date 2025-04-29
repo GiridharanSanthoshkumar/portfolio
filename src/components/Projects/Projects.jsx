@@ -12,7 +12,7 @@ const project = [
   
    {
     name:"CONTEXT AWARE ACCESS CONTROL FOR IOT SYSTEMS",
-    imgurl:"Images/CAAC_blockchain.png",
+    imgurl:"Images/CAAC_blockchain1.png",
     Description:"Developed a decentralized access control system for IoT devices using blockchain and smart contracts. The system enforces context-aware policies, such as time, location, and user roles, to grant or deny access to resources like smart lights and security cameras. It ensures secure, transparent, and auditable access management without relying on a central authority.",
     TechStack: "React.js, Node.js, Express.js, Solidity, Web3.js, Ganache, Truffle, IPFS (off-chain storage)",
     Githublink: "https://github.com/Sandhiya-8/mini_project",
