@@ -1,6 +1,24 @@
 import React from 'react';
 import Project from './Project';
-const project=[
+const project = [
+   {
+    name:"AI GENERATED IMAGE DETECTION",
+    imgurl:"Images/AI_generated_image_detection.png",
+    Description:"Built an end-to-end AI vs real image detection pipeline using Vision Transformers (ViT). Trained a ViT model for classification, deployed the model using FastAPI, and integrated it with a React frontend for user-friendly image uploads and real-time probabilistic predictions.",
+    TechStack: "Vision Transformers (ViT), PyTorch, FastAPI, React.js, Hugging Face Transformers, PIL, Axios",
+    Githublink: "https://github.com/GiridharanSanthoshkumar/Ai_generated_image_detection_Using_vit",
+    
+  },
+  
+   {
+    name:"CONTEXT AWARE ACCESS CONTROL FOR IOT SYSTEMS",
+    imgurl:"Images/CAAC_blockchain.png",
+    Description:"Developed a decentralized access control system for IoT devices using blockchain and smart contracts. The system enforces context-aware policies, such as time, location, and user roles, to grant or deny access to resources like smart lights and security cameras. It ensures secure, transparent, and auditable access management without relying on a central authority.",
+    TechStack: "React.js, Node.js, Express.js, Solidity, Web3.js, Ganache, Truffle, IPFS (off-chain storage)",
+    Githublink: "https://github.com/Sandhiya-8/mini_project",
+    
+  },
+  
   {
     name:"HOSPITAL SUGGESTION SYSTEM",
     imgurl:"Images/Hospitalsuggestion.png",
@@ -8,16 +26,8 @@ const project=[
     TechStack: "React.js,Node.js,Express.js,API,LLM integration",
     Githublink: "https://github.com/GiridharanSanthoshkumar/Hospital_Suggestion_System/",
     
-    },
-  {
-name:"KEEPER APP",
-imgurl:"Images/Keeper.png",
-Description:"Developed frontend for a note-keeping web application using React.js.It enables users to seamlessly create, edit, and delete notes through an intuitive user interface. Leveraging React's useState for state management, the project ensures dynamic and responsive note handling.",
-TechStack: "React.js",
-Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
-
-},
-{
+  },
+    {
   name:"REGISTRATION WEBSITE",
   imgurl:"Images/Brainstrain.png",
   Description:"Collaborated with a team to develop a event registration website for a college club. As one of the primary web developers, I worked closely with designers to bring the visual and functional aspects of the site to life. The website features a visually appealing home page, an events page that lists all upcoming events, and a seamless registration page for participants.",
@@ -26,6 +36,15 @@ Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
   deployedlink:"https://www.ldsgct.in/"
   
   },
+  {
+name:"KEEPER APP",
+imgurl:"Images/Keeper.png",
+Description:"Developed frontend for a note-keeping web application using React.js.It enables users to seamlessly create, edit, and delete notes through an intuitive user interface. Leveraging React's useState for state management, the project ensures dynamic and responsive note handling.",
+TechStack: "React.js",
+Githublink: "https://github.com/GiridharanSanthoshkumar/keeper-react-app",
+
+},
+
 {
   name:"DICTIONARY",
   imgurl:"Images/Dictionary.png",
