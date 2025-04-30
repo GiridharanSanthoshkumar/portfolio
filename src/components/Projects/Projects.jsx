@@ -18,6 +18,27 @@ const project = [
     Githublink: "https://github.com/Sandhiya-8/mini_project",
     
   },
+  /*
+  {
+    name:"OFFLINE QUIZ APP",
+    imgurl:"Images/CAAC_blockchain1.png",
+    Description:"Developed a decentralized access control system for IoT devices using blockchain and smart contracts. The system enforces context-aware policies, such as time, location, and user roles, to grant or deny access to resources like smart lights and security cameras. It ensures secure, transparent, and auditable access management without relying on a central authority.",
+    TechStack: "React Native,Expo build framework",
+    Githublink: "https://github.com/Sandhiya-8/mini_project",
+    
+  },
+  */
+  
+  
+   {
+    name:"INFOQUEST REGISTRATION WEBSITE (SPACE THEMED)",
+    imgurl:"Images/Infoquest.png",
+    Description:"Designed and built a space-themed symposium registration website for a college event, featuring smooth animations and an intuitive user interface. The system captures participant details and records them directly into Google Sheets, providing a lightweight and efficient registration workflow.",
+    TechStack: "React.js, Node.js, Express.js, Google Sheets API, Framer Motion",
+    Githublink: "https://github.com/GiridharanSanthoshkumar/Iq_website",
+    
+  },
+  
   
   {
     name:"HOSPITAL SUGGESTION SYSTEM",
@@ -28,7 +49,7 @@ const project = [
     
   },
     {
-  name:"REGISTRATION WEBSITE",
+  name:"BRAINSTRAIN REGISTRATION WEBSITE",
   imgurl:"Images/Brainstrain.png",
   Description:"Collaborated with a team to develop a event registration website for a college club. As one of the primary web developers, I worked closely with designers to bring the visual and functional aspects of the site to life. The website features a visually appealing home page, an events page that lists all upcoming events, and a seamless registration page for participants.",
   TechStack: "React.js",
