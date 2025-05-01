@@ -12,7 +12,7 @@ const Profile = () => {
       <strong>Giridharan Santhoshkumar</strong>
       </h1>
       <strong className="letter-spacing text-uppercase opacity-incr" >
-        web developer</strong>
+        Software Engineer</strong>
         <br></br>
       <strong className="letter-spacing text-uppercase">
         and this is my portfolio 
