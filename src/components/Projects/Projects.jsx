@@ -36,7 +36,7 @@ const project = [
     Description:"Designed and built a space-themed symposium registration website for a college event, featuring smooth animations and an intuitive user interface. The system captures participant details and records them directly into Google Sheets, providing a lightweight and efficient registration workflow.",
     TechStack: "React.js, Node.js, Express.js, Google Sheets API, Framer Motion",
     Githublink: "https://github.com/GiridharanSanthoshkumar/Iq_website",
-    deployedlink:"https://infoquest.gctcsea.in/"
+    deployedlink:"https://iq-website-xamo.vercel.app/"
   },
   
   
@@ -54,7 +54,7 @@ const project = [
   Description:"Collaborated with a team to develop a event registration website for a college club. As one of the primary web developers, I worked closely with designers to bring the visual and functional aspects of the site to life. The website features a visually appealing home page, an events page that lists all upcoming events, and a seamless registration page for participants.",
   TechStack: "React.js",
   Githublink: "https://github.com/GiridharanSanthoshkumar/Brainstrain",
-  deployedlink:"https://www.ldsgct.in/"
+  deployedlink:"https://brainstrain.vercel.app/"
   
   },
   {

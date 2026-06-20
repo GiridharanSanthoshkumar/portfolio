@@ -30,17 +30,31 @@ function Contact()
 
         <h2 style={{fontFamily:"'Roboto', sans-serif"}}>Skills</h2>
         <div style={{display:"flex",flexWrap: "wrap",}}>
-            <div className="skill">HTML5</div>
-            <div className="skill">CSS3</div>
-            <div className="skill">Javascript</div>
-            <div className="skill">EJS</div>
-            <div className="skill">Node.js</div>
-            <div className="skill">Express.js</div>
-            <div className="skill">React.js</div>
-            <div className="skill">MongoDB</div>
+               <div className="skill">Data Structures & Algorithms</div>
+               <div className="skill">Object-Oriented Programming (OOP)</div>
+               <div className="skill">Design Patterns</div>
+               <div className="skill">System Design (HLD, LLD)</div>
+               <div className="skill">Operating Systems</div>
+               <div className="skill">Computer Networks</div>
+
+               <div className="skill">Java</div>
+               <div className="skill">Python</div>
+               <div className="skill">C++</div>
+               <div className="skill">JavaScript</div>
+               <div className="skill">TypeScript</div>
+
+               <div className="skill">Spring Boot</div>
+               <div className="skill">Node.js</div>
+               <div className="skill">Express.js</div>
+               <div className="skill">REST APIs</div>
+
+               <div className="skill">React.js</div>
+            <div className="skill">Angular</div>
+            
+            <div className="skill">MySQL</div>
             <div className="skill">PostgreSQL</div>
-            <div className="skill">Git</div>
-            <div className="skill">Rest API</div>
+            <div className="skill">MongoDB</div>
+            
             
         
         </div>
